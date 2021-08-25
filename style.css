@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+.add-div {
+  width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+.add-div h2 {
+  text-align: center;
+  font-weight: 700;
+  color: crimson;
+  padding-top: 20px;
+}
+
+.add-div form {
+  width: 70%;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.add-div form .text-input {
+  width: 80%;
+  padding: 7px 20px;
+  border: 1px solid crimson;
+  outline: none;
+}
+
+.add-div form .text-input::-webkit-input-placeholder {
+  color: crimson;
+}
+
+.add-div form .text-input:-ms-input-placeholder {
+  color: crimson;
+}
+
+.add-div form .text-input::-ms-input-placeholder {
+  color: crimson;
+}
+
+.add-div form .text-input::placeholder {
+  color: crimson;
+}
+
+.add-div form .btn-input {
+  width: 20%;
+  background-color: crimson;
+  border: 1px solid crimson;
+  font-size: 15px;
+  color: white;
+}
+
+.add-div .task-box {
+  width: 80%;
+}
+
+.add-div .task-box div {
+  width: 45%;
+}
+
+.add-div .task-box div ul {
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: crimson;
+}
+
+.add-div .task-box div ul h5 {
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.add-div .task-box div ul li {
+  list-style: none;
+  text-align: left;
+  padding: 10px 0px 10px 15px;
+  color: white;
+}
+
+.add-div .task-box div ul li label {
+  padding-left: 10px;
+}
+
+.add-div .task-box div ul li button {
+  float: right;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=style.css.map */

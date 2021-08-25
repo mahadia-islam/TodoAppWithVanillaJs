@@ -1,0 +1,15 @@
+{
+    "editor.fontSize": 20,
+    "editor.fontFamily": "Operator Mono",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "workbench.colorTheme": "Learn with Sumit Theme - Dracula version"
+}
