@@ -50,10 +50,10 @@
                     text-align: center;
                     color: white;
                     padding-bottom: 10px;
-                    border-bottom: 1px solid white;
                     width: 90%;
                     margin: auto;
                     margin-bottom: 10px;
+                    font-weight: 600;
                 }
                 li{
                     list-style: none;
@@ -69,6 +69,13 @@
                     }
                 }
             }
+        }
+        .delete-btn{
+            background-color: transparent;
+            border: none;
+            padding-top: 0px;
+            font-size: 20px;
+            color: white;
         }
     }
 }

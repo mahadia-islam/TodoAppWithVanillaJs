@@ -46,8 +46,8 @@ let addTask = function (event) {
 let completeTask = function () {
     let listItem = this.parentNode;
     let deleteButton = document.createElement('button');
-    deleteButton.innerText = 'delete';
-    deleteButton.setAttribute('class', 'btn btn-warning btn-sm');
+    deleteButton.innerHTML = "<i class='bx bxs-checkbox-minus' ></i>";
+    deleteButton.setAttribute('class', 'delete-btn');
     listItem.appendChild(deleteButton);
 
     let checkBox = listItem.querySelector('input[type="checkbox"]');
